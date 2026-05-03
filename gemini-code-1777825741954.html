@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+            background-color: #f4f7f6;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f7f6;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            min-height: 297mm;
+        }
+        /* Header & Logo Section */
+        header {
+            background-color: #1a365d;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 5px solid #d4af37;
+        }
+        .logo-box {
+            border: 3px solid #d4af37;
+            display: inline-block;
+            padding: 15px 30px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+        .logo-text {
+            font-size: 28pt;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        .slogan {
+            font-size: 14pt;
+            margin-top: 10px;
+            color: #d4af37;
+            font-style: italic;
+        }
+        .slogan-fr {
+            font-size: 10pt;
+            display: block;
+            color: #bdc3c7;
+            margin-top: 5px;
+        }
+
+        /* Sections */
+        section {
+            padding: 30px;
+            border-bottom: 1px solid #eee;
+        }
+        h2 {
+            color: #1a365d;
+            border-right: 5px solid #d4af37;
+            padding-right: 15px;
+            font-size: 18pt;
+            margin-bottom: 20px;
+        }
+        .sub-h2 {
+            font-size: 10pt;
+            color: #7f8c8d;
+            display: block;
+            margin-top: -15px;
+            margin-bottom: 20px;
+            text-align: right;
+        }
+
+        /* Grid Layout for KPIs and Logistics */
+        .grid-container {
+            display: table;
+            width: 100%;
+            border-spacing: 10px;
+        }
+        .grid-item {
+            display: table-cell;
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            width: 33%;
+            vertical-align: top;
+            border: 1px solid #ececec;
+        }
+        .kpi-val {
+            font-size: 20pt;
+            font-weight: bold;
+            color: #2c3e50;
+            display: block;
+        }
+        .kpi-label {
+            font-size: 11pt;
+            color: #e67e22;
+        }
+
+        /* Phases Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: right;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #1a365d;
+        }
+        .phase-tag {
+            background: #d4af37;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 9pt;
+        }
+
+        /* Logistics Icons Placeholder */
+        .icon-box {
+            font-size: 24pt;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 10pt;
+            color: #95a5a6;
+            background: #f4f7f6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-box">
+                <div class="logo-text">MPL</div>
+                <div style="font-size: 10pt;">MAURITANIA PRO-LOGISTIQUE</div>
+            </div>
+            <div class="slogan">سرعة، تتبع، أمان</div>
+            <div class="slogan-fr">Rapidité, Traçabilité, Sécurité</div>
+        </header>
+
+        <section>
+            <h2>الرؤية الإستراتيجية (نواكشوط)</h2>
+            <span class="sub-h2">Vision Stratégique - Nouakchott</span>
+            <p>تطوير شبكة لوجستية ذكية في قلب العاصمة الموريتانية لتلبية احتياجات الشركات والقطاع الصحي، مع التركيز على الكفاءة الرقمية والسرعة القصوى.</p>
+            
+            <div class="grid-container">
+                <div class="grid-item">
+                    <div class="phase-tag">المرحلة الأولى</div>
+                    <p><strong>نقل الطرود الصغيرة B2B</strong><br>استهداف البنوك، السفارات، والمكاتب الإدارية.</p>
+                </div>
+                <div class="grid-item">
+                    <div class="phase-tag" style="background:#27ae60;">المرحلة الثانية</div>
+                    <p><strong>نقل الأدوية B2B</strong><br>نقل آمن وحراري للأدوية والمستلزمات الطبية.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>الاستثمار اللوجستي (الأسطول)</h2>
+            <span class="sub-h2">Investissement Logistique (Flotte)</span>
+            <table>
+                <thead>
+                    <tr>
+                        <th>الوسيلة (Moyen)</th>
+                        <th>العدد المتوقع</th>
+                        <th>المهمة الأساسية</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>دراجات نارية (Motos)</strong></td>
+                        <td>10 وحدات</td>
+                        <td>تجاوز الزحام المروري في نواكشوط (توصيل فوري)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>سيارات صغيرة (Vans)</strong></td>
+                        <td>4 وحدات</td>
+                        <td>نقل المستندات والطرود المتوسطة للشركات</td>
+                    </tr>
+                    <tr>
+                        <td><strong>شاحنات مبردة (Med-Trucks)</strong></td>
+                        <td>2 وحدات</td>
+                        <td>خاص بالمرحلة الثانية (نقل الأدوية واللقاحات)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>المؤشرات المالية (KPIs)</h2>
+            <span class="sub-h2">Indicateurs de Performance Financière</span>
+            <div class="grid-container">
+                <div class="grid-item" style="text-align:center;">
+                    <span class="kpi-label">الاستثمار الأولي</span>
+                    <span class="kpi-val">120,000 $</span>
+                    <span style="font-size:9pt;">CAPEX Initial</span>
+                </div>
+                <div class="grid-item" style="text-align:center;">
+                    <span class="kpi-label">نقطة التعادل</span>
+                    <span class="kpi-val">18 شهر</span>
+                    <span style="font-size:9pt;">Break-even Point</span>
+                </div>
+                <div class="grid-item" style="text-align:center;">
+                    <span class="kpi-label">هامش الربح المتوقع</span>
+                    <span class="kpi-val">25%</span>
+                    <span style="font-size:9pt;">Marge Bénéficiaire</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>البنية التحتية التكنولوجية</h2>
+            <span class="sub-h2">Infrastructure Technologique</span>
+            <ul>
+                <li><strong>نظام تتبع GPS:</strong> تتبع حي لكل طرد عبر منصة الويب.</li>
+                <li><strong>تطبيق العملاء:</strong> طلب الخدمة ومتابعة الفواتير رقمياً.</li>
+                <li><strong>الأمان:</strong> تصوير الطرود عند الاستلام والتسليم لضمان السلامة.</li>
+            </ul>
+        </section>
+
+        <div class="footer">
+            MPL Logistique - Nouakchott, Mauritanie &copy; 2024
+        </div>
+    </div>
+</body>
+</html>
